@@ -1,6 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:ds90lv004
-LIBS:con-molex-vhdci
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,12 +28,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:module
 LIBS:vhdci_fei4_rj45-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title "VHDCI FE-I4 RJ45 Adapter"
 Date "2017-05-05"
 Rev "A"

@@ -1,4 +1,4 @@
-update=2017 May 05, Friday 07:38:01
+update=Mon 08 May 2017 04:43:13 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/Users/theim/Documents/Work/KiKad
+LibDir=/home/pixel/Downloads/kicad-4.0.5/kicad_sources/library-repos/kicad-library/library;/home/pixel/Downloads/kicad-4.0.5/new/module/module.pretty
 [eeschema/libraries]
 LibName1=ds90lv004
 LibName2=con-molex-vhdci
@@ -60,3 +60,4 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+LibName32=/home/pixel/Downloads/kicad-4.0.5/new/module/module
