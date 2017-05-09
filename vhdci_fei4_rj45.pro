@@ -1,4 +1,4 @@
-update=Mon 08 May 2017 04:43:13 PM PDT
+update=Tue 09 May 2017 02:25:15 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=/home/pixel/Downloads/kicad-4.0.5/kicad_sources/library-repos/kicad-library/library;/home/pixel/Downloads/kicad-4.0.5/new/module/module.pretty
@@ -61,3 +59,5 @@ LibName29=atmel
 LibName30=contrib
 LibName31=valves
 LibName32=/home/pixel/Downloads/kicad-4.0.5/new/module/module
+[general]
+version=1
