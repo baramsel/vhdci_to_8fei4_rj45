@@ -1,5 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:vhdci_fei4_rj45-rescue
+LIBS:ds90lv004
+LIBS:con-molex-vhdci
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,12 +31,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:module
 LIBS:vhdci_fei4_rj45-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -44,34 +47,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L JUMPER3 JP16
-U 1 1 59136121
-P 3825 4150
-AR Path="/59195600/59136121" Ref="JP16"  Part="1" 
-AR Path="/59133F97/59136121" Ref="JP14"  Part="1" 
-AR Path="/5919615E/59136121" Ref="JP18"  Part="1" 
-F 0 "JP16" H 3875 4050 50  0000 L CNN
-F 1 "JUMPER3" H 3825 4250 50  0000 C BNN
-F 2 "" H 3825 4150 50  0000 C CNN
-F 3 "" H 3825 4150 50  0000 C CNN
-	1    3825 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L JUMPER3 JP17
-U 1 1 5913615C
-P 6150 4525
-AR Path="/59195600/5913615C" Ref="JP17"  Part="1" 
-AR Path="/59133F97/5913615C" Ref="JP15"  Part="1" 
-AR Path="/5919615E/5913615C" Ref="JP19"  Part="1" 
-F 0 "JP17" H 6200 4425 50  0000 L CNN
-F 1 "JUMPER3" H 6150 4625 50  0000 C BNN
-F 2 "" H 6150 4525 50  0000 C CNN
-F 3 "" H 6150 4525 50  0000 C CNN
-	1    6150 4525
-	0    1    1    0   
-$EndComp
 $Comp
 L C C43
 U 1 1 5913620E
@@ -179,4 +154,32 @@ Wire Wire Line
 Connection ~ 6150 5325
 Wire Wire Line
 	5450 4375 5450 4250
+$Comp
+L Jumper_NC_Dual JP1
+U 1 1 591A2FEC
+P 3825 4150
+AR Path="/59133F97/591A2FEC" Ref="JP1"  Part="1" 
+AR Path="/5919615E/591A2FEC" Ref="JP3"  Part="1" 
+AR Path="/59195600/591A2FEC" Ref="JP5"  Part="1" 
+F 0 "JP5" H 3875 4050 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 3825 4250 50  0000 C BNN
+F 2 "Connectors:GS3" H 3825 4150 50  0001 C CNN
+F 3 "" H 3825 4150 50  0001 C CNN
+	1    3825 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Dual JP2
+U 1 1 591A318A
+P 6150 4525
+AR Path="/59133F97/591A318A" Ref="JP2"  Part="1" 
+AR Path="/5919615E/591A318A" Ref="JP4"  Part="1" 
+AR Path="/59195600/591A318A" Ref="JP6"  Part="1" 
+F 0 "JP6" H 6200 4425 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 6150 4625 50  0000 C BNN
+F 2 "Connectors:GS3" H 6150 4525 50  0001 C CNN
+F 3 "" H 6150 4525 50  0001 C CNN
+	1    6150 4525
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -1,5 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:vhdci_fei4_rj45-rescue
+LIBS:ds90lv004
+LIBS:con-molex-vhdci
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:module
 LIBS:vhdci_fei4_rj45-cache
 EELAYER 25 0
 EELAYER END
@@ -671,13 +674,13 @@ Text Label 2350 6300 0    60   ~ 0
 DATA_F+
 Text Label 2350 6500 0    60   ~ 0
 DATA_F-
-Text Label 2350 6700 0    60   ~ 0
-DATA_A+
-Text Label 2350 6900 0    60   ~ 0
-DATA_A-
 Text Label 2350 7100 0    60   ~ 0
-DATA_B+
+DATA_A+
 Text Label 2350 7300 0    60   ~ 0
+DATA_A-
+Text Label 2350 6700 0    60   ~ 0
+DATA_B+
+Text Label 2350 6900 0    60   ~ 0
 DATA_B-
 Text Label 4550 5900 0    60   ~ 0
 DATA_G+
@@ -687,13 +690,13 @@ Text Label 4550 6300 0    60   ~ 0
 DATA_H+
 Text Label 4550 6500 0    60   ~ 0
 DATA_H-
-Text Label 4550 6700 0    60   ~ 0
-DATA_C+
-Text Label 4550 6900 0    60   ~ 0
-DATA_C-
 Text Label 4550 7100 0    60   ~ 0
-DATA_D+
+DATA_C+
 Text Label 4550 7300 0    60   ~ 0
+DATA_C-
+Text Label 4550 6700 0    60   ~ 0
+DATA_D+
+Text Label 4550 6900 0    60   ~ 0
 DATA_D-
 Text Label 7350 800  0    60   ~ 0
 CLK_A+
@@ -1385,10 +1388,10 @@ F 3 "" H 3450 2850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR029
+L +3.3V #PWR028
 U 1 1 59196164
 P 3800 4925
-F 0 "#PWR029" H 3800 4775 50  0001 C CNN
+F 0 "#PWR028" H 3800 4775 50  0001 C CNN
 F 1 "+3.3V" H 3800 5065 50  0000 C CNN
 F 2 "" H 3800 4925 50  0000 C CNN
 F 3 "" H 3800 4925 50  0000 C CNN
@@ -1396,10 +1399,10 @@ F 3 "" H 3800 4925 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR030
+L +5V #PWR029
 U 1 1 5919616B
 P 3800 4675
-F 0 "#PWR030" H 3800 4525 50  0001 C CNN
+F 0 "#PWR029" H 3800 4525 50  0001 C CNN
 F 1 "+5V" H 3800 4815 50  0000 C CNN
 F 2 "" H 3800 4675 50  0000 C CNN
 F 3 "" H 3800 4675 50  0000 C CNN
@@ -2073,10 +2076,10 @@ Wire Wire Line
 	4625 1425 4875 1425
 Connection ~ 4875 1625
 $Comp
-L GND #PWR028
+L GND #PWR030
 U 1 1 59195614
 P 4900 3475
-F 0 "#PWR028" H 4900 3225 50  0001 C CNN
+F 0 "#PWR030" H 4900 3225 50  0001 C CNN
 F 1 "GND" H 4900 3325 50  0000 C CNN
 F 2 "" H 4900 3475 50  0001 C CNN
 F 3 "" H 4900 3475 50  0001 C CNN
