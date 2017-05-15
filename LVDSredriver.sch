@@ -1,7 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:vhdci_fei4_rj45-rescue
-LIBS:ds90lv004
-LIBS:con-molex-vhdci
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:module
 LIBS:vhdci_fei4_rj45-cache
 EELAYER 25 0
 EELAYER END
